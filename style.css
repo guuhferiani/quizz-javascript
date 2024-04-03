@@ -4,47 +4,46 @@ body {
     background-color: rgb(24 24 27);
   }
 
-  .titulo {
+.titulo {
     text-align: center;
     color: #dde7e7;
-  }
+}
   
-  #quiz-container {
+#quiz-container {
     border: 1px solid #ccc;
     padding: 20px;
     width: 80%;
     margin: 0 auto;
     color: #dde7e7;
-  }
+}
   
-  #pergunta {
+#pergunta {
     font-size: 18px;
     margin-bottom: 10px;
-  }
+}
   
-  #opcoes {
+#opcoes {
     display: flex;
     justify-content: space-around;
-  }
+}
   
-  #verdadeiro, #falso {
+#verdadeiro, #falso {
     padding: 10px 20px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
   
-  #progresso {
+#progresso {
     margin-top: 20px;
     height: 20px;
     width: 100%;
     background-color: #ddd;
-  }
+}
   
-  #barra {
+#barra {
     height: 100%;
     width: 0%;
     background-color: green;
-  }
-  
+}

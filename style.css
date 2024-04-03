@@ -1,6 +1,12 @@
 body {
     font-family: sans-serif;
     margin: 20px;
+    background-color: rgb(24 24 27);
+  }
+
+  .titulo {
+    text-align: center;
+    color: #dde7e7;
   }
   
   #quiz-container {
@@ -8,6 +14,7 @@ body {
     padding: 20px;
     width: 80%;
     margin: 0 auto;
+    color: #dde7e7;
   }
   
   #pergunta {

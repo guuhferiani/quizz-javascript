@@ -82,7 +82,7 @@ const perguntas = [
     // ... outras perguntas
   ];
   
-  let indicePerguntaAtual = 0;
+let indicePerguntaAtual = 0;
 let acertos = 0;
 
 function mostrarPergunta() {
@@ -133,7 +133,8 @@ function mostrarResultado() {
 
 mostrarPergunta();
 
-document.getElementById("verdadeiro").addEventListener("click", () => {
+document.getElementById("verdadeiro").addEventListener("click", () => { // função anonima
+  // Passar funções como argumentos para outras funções
   verificarResposta(true);
 });
 

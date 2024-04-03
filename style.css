@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  #quiz-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #pergunta {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #opcoes {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #verdadeiro, #falso {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #progresso {
+    margin-top: 20px;
+    height: 20px;
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #barra {
+    height: 100%;
+    width: 0%;
+    background-color: green;
+  }
+  
